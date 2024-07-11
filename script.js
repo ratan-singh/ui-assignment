@@ -37,3 +37,32 @@ function closeModal(modal) {
   overlay.classList.remove("active");
 }
 
+// Swiper jS
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+  
+  //Image toggler
+  
+  let tabs = document.querySelectorAll(".tab");
+  let images = document.querySelectorAll(".img");
+  
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      images.forEach((content) => {
+        content.classList.remove("active");
+        console.log("this is working");
+      });
+      tabs.forEach((tab) => {
+        tab.classList.remove("active");
+      });
+      images[index].classList.add("active");
+      tabs[index].classList.add("active");
+    });
+  });
+  
