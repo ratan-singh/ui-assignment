@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 10rem;
+    overflow-x: hidden;
+  }
+  
+  .grey-bg {
+    background-color: #fafafa;
+  }
+  
+  /* ----------------------------------------------------
+  What We Do Starts Here
+  -------------------------------------------------------*/
+  
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+  }
+  
+  .hero-content {
+    width: 614px;
+  }
+  
+  #hero h4 {
+    text-align: left;
+  
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    color: #ff3147;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  #hero h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.2;
+  
+    color: #000000;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  #hero p {
+    text-align: left;
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 50px 0;
+    color: #000000;
+    opacity: 1;
+  }
+  
+  #hero img {
+    width: 100%;
+    max-width: 487px;
+  }
+
+  button.btn-red {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff3147;
+    color: #fff;
+    padding: 15px 28px;
+  }
+  
+  button.btn-red:hover {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 28px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
